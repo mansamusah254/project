@@ -10,12 +10,13 @@
 </head>
 <body>
   <div class="landing">
-    <img src="images/logo/logo.png" alt="logo" id="logo">
+    <img src="/home/moses/Desktop/IP3/assets/logo/logo.png" alt="logo" id="logo">
     <h1>WELCOME</h1> 
     <h1> TO DELANI STUDIO</h1>
     <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
     <div class="mouse-click"></div>
-    <a href="#about-us"><img src="IP3/assets/mouse_click.png" alt=" mouse_click" id="mouse-click"></a> 
+    <a href="#about-us"><img src="./assets/mouse_click.png" alt=" mouse_click" id="mouse-click"></a> 
+    
   </div>
 
   <div class="container about" id="about-us">
@@ -46,7 +47,7 @@
         </div>
         
         <div id="design-image">
-          <img src="IP3/assets/services_icons/design_icon.png" alt="design">
+          <img src="/assets/services_icons/design_icon.png" alt="design">
           <p>DESIGN</p>
         </div>
       </div>
@@ -58,7 +59,7 @@
           <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
         </div>
         <div id="development-image">
-          <img src="IP3/assets/services_icons/dev_icon.png" alt="development">
+          <img src="/assets/services_icons/dev_icon.png" alt="development">
           <P>DEVELOPMENT</P>
         </div>
       </div>
@@ -70,7 +71,7 @@
           <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
         </div>
         <div id="product-image">
-          <img src="IP3/assets/services_icons/product_icon.png" alt="products">
+          <img src="/assets/services_icons/product_icon.png" alt="products">
           <P>PRODUCT MANAGEMENT</P>
         </div>
       </div>
@@ -81,31 +82,52 @@
     <h2>PORTFOLIO</h2>
     <div class="row" id="portfolio">
       <div class="col-md-3" id="work1">
-        <img src="IP3/assets/portfolio/work4.jpg" alt="work1" >
+        <img src="/assets/portfolio/work4.jpg" alt="work1" >
         <p id="overlay"class="text">Black Studio</p>
       </div>
       <div class="col-md-3" id="work2">
-        <img src="IP3/assets/portfolio/work3.jpg" alt="work2" id="work2">
+        <img src="/assets/portfolio/work3.jpg" alt="work2" id="work2">
         <p id="overlay2" class="text">Ontario Security</p>
       </div>
       <div class="col-md-3" id="work3">
-        <img src="IP3/assets/portfolio/work2.jpg" alt="work3">
+        <img src="/assets/portfolio/work2.jpg" alt="work3">
         <p id="overlay3"class="text">Pyramids</p>
       </div>
       <div class="col-md-3" id="work4">
-        <img src="IP3/assets/portfolio/work1.jpg" alt="work4">
+        <img src="/assets/portfolio/work1.jpg">
         <p id="overlay4" class="text">Jim Carry</p>
       </div>
     </div>
   </div>
 
-  <div class="footer section">
+  <div class="footer">
     <h2>CONTACT US</h2>
-    
+    <form id="form">
+      <div class="form-group form-inline">
+        <input type="text" class="form-control" placeholder = "Name...." name="MERGE1" id="MERGE1" size="25" value="">
+        <input type="email" class="form-control"  placeholder = "Email...." autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+      </div>
+      <div class="form-group">
+        <textarea class="field" rows="8" placeholder = "Your message here...."></textarea>
+      </div>
+    </form>
+    <button type="submit" class="btn1">Submit</button>
   </div>
-  
+  <footer>
+    <img src="images/social_icons/twitter.png" alt="twitter">
+    <img src="images/social_icons/dribble.png" alt="dribble">
+    <img src="images/social_icons/facebook.png" alt="facebook">
+    <img src="images/social_icons/g_plus.png" alt="g_plus">
+    <img src="images/social_icons/skype.png" alt="skype">
+    <img src="images/social_icons/stumble_upon.png" alt="stumble_upon">
+    <img src="images/social_icons/behance.png" alt="behance">
+    <img src="images/social_icons/pinterest.png" alt="pinterest">
+    <img src="images/social_icons/flickr.png" alt="flickr">
+    <p>DELANI STUDIO</p>
+    <p>2019</p>
+  </footer>
   
   <script src="js/jquery-3.4.1.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>
