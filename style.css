@@ -1,7 +1,7 @@
 .landing {
     position: relative;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
 
   .landing h1 {
@@ -14,9 +14,10 @@
 
   .landing h2 {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 35px;
   }
 
   .landing p {
@@ -24,8 +25,22 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif=;
+
   }
 
+#about{
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#about{
+    position: absolute;
+    top: 120;
+    transform: translate(-50%, -10%);
+}
 
 .landing #back1 {
     background-position: center;
@@ -34,13 +49,6 @@
     margin-left: -5px;
   }
 
-  /* .landing h1{
-      margin-left: 450px;
-      margin-top: 50px;
-  } */
-  /* .landing h2{
-    margin-left: 425px;
-} */
 .img .row #portfolio{
     display: flex;
     max-block-size: 200px;
