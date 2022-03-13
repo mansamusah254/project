@@ -1,0 +1,16 @@
+.landing #back1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .landing h1{
+      margin-left: 450px;
+  }
+  .landing h2{
+    margin-left: 425px;
+}
+.img .row #portfolio{
+    display: flex;
+    max-block-size: 200px;
+}
