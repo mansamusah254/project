@@ -41,7 +41,7 @@ body{
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif=;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     text-align: center;
     font-size: 30px;
@@ -149,7 +149,6 @@ body{
     height: auto;
     margin-left: -5px;
     margin-top: -5px;
-    background-
 }
 
 #form {
@@ -184,12 +183,25 @@ body{
 #name {
     padding: 1%;
     margin-bottom: 1%;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
 }
 #email {
     padding: 1%;
     margin-bottom: 1%;
+    background-color: transparent;
+    border: 1px solid rgb(249, 249, 250);
+}
+#message{
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
 }
 #btn {
-    border: 10px solid rgb(25, 96, 230);
+    border: 5px solid rgb(238, 238, 238);
     font-size: 40px;
+    background-color:grey;
 }
+::placeholder { 
+    color: rgb(255, 255, 255);
+    opacity: 1; 
+  }
