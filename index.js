@@ -96,3 +96,14 @@ $("col-md-4").click(function(){
    }
    isEmailValid('abc@11gmail.com'); // email is valid
    isEmailValid('abc11gmail.com'); // email is invalid
+
+   $("form#form1").on('submit',function(event){
+    event.preventDefault();
+    var name = $("input#name").val();
+    var email = $("input#email").val();
+    var message = $("textarea#message").val();
+    
+    if($("input#name").val() && $("input#email").val()){
+        alert("Thank you, we'll get back to you shortly...");
+    }
+});
