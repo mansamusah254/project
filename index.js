@@ -84,3 +84,14 @@ $("col-md-4").click(function(){
       $("#overlay8").hide();
     });
   });
+
+  //email validation
+  function isEmailValid(email) {
+    if(/^[^@ ]+@[^@ ]+\.[^@ \.]{2,}$/.test(email)) {
+     console.log('email is valid');
+    } else {
+     console.log('email is invalid')
+    }
+   }
+   isEmailValid('abc@11gmail.com'); // email is valid
+   isEmailValid('abc11gmail.com'); // email is invalid

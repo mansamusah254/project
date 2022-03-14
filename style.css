@@ -149,15 +149,34 @@ body{
     height: auto;
     margin-left: -5px;
     margin-top: -5px;
+    background-
 }
 
 #form {
     margin-left: 300px;
     font-size: 20%;
 } 
-.footer2 {
-    margin-left: 800px;
+
+.heading {
+    text-align: center;
+    margin-top: -100px;
 }
-.footer3 {
-    margin-left: 880px;
+
+.portfolio1 {
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.icons {
+    text-align: center;
+    margin-top: 250px;
+}
+.col {
+    margin-top: -400px;
+    max-height: ;  
+}
+#closing {
+    margin-top: 30px;
 }
