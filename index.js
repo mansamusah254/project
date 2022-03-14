@@ -84,36 +84,3 @@ $("col-md-4").click(function(){
       $("#overlay8").hide();
     });
   });
-
-//   $('#development).on('click', function () {
-//     $('#development').slideUp('slow');
-//     $(desp).show(500);
-//     $(destext).animate({fontWeight:'bolder',fontSize:'30px'})
-
-// });
-// $('#product').on('click', function () {
-//     $('#product').slideUp('slow');
-//     $(devp).show(500);
-//     $(devtext).animate({fontWeight:'bolder',fontSize:'30px'})
-// });
-// $('#design').on('click', function () {
-//     $('#design').slideUp('slow');
-//     $(prop).show(500);
-//     $(protext).animate({fontWeight:'bolder',fontSize:'30px'})
-// });
-
-// $(desp, destext).on('click', function () {
-//     $('#development-image').slideDown();
-//     $(desp).hide(500);
-//     $(destext).animate({fontWeight:'normal',fontSize:'16px'})
-// });
-// $(devp, devtext).on('click', function () {
-//     $('#product-image').slideDown();
-//     $(devp).hide(500);
-//     $(devtext).animate({fontWeight:'normal',fontSize:'16px'})
-// });
-// $(prop, protext).on('click', function () {
-//     $('#design-image').slideDown();
-//     $(prop).hide(500);
-//     $(protext).animate({fontWeight:'normal',fontSize:'16px'})
-// })
