@@ -40,9 +40,5 @@ This project is a web application for Delani studio that shows details about the
 > INPUT"message(optional)
 > OUTPUT"thankyou we`ll get back to you shortly"
 
-## Contact Information 
-
-If you have any question or contributions, please email me at [mikeycharlesm7@gmail.com]
-
 ## License
 
