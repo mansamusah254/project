@@ -5,3 +5,8 @@
     text-align: center;
     padding: 2%;
 }
+.col-md-3 {
+    width: 50%;
+    height: 10%;
+    padding: 10%;
+}
