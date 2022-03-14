@@ -1,7 +1,7 @@
 $("col-md-4").click(function(){
     $("col-md-4").hide(1000);
   });
-
+//animations
   $(document).ready(function(){
     $(".product").click(function(){
       // $("#design-image").slideDown('1500').hide('1000');
@@ -32,7 +32,7 @@ $("col-md-4").click(function(){
     });
   });
 
-
+//hover functions
   $(document).ready(function(){
     $("#work1").mouseover(function(){
       $("#overlay1").show();
@@ -62,6 +62,7 @@ $("col-md-4").click(function(){
     });
   });
   
+  //hover functions
   $(document).ready(function(){
     $("#work5").mouseover(function(){
       $("#overlay5").show();

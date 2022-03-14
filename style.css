@@ -171,12 +171,25 @@ body{
 }
 .icons {
     text-align: center;
-    margin-top: 250px;
+    margin-top: 150px;
+    margin-left: 650px;
 }
 .col {
     margin-top: -400px;
-    max-height: ;  
+      
 }
 #closing {
     margin-top: 30px;
+}
+#name {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+#email {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+#btn {
+    border: 10px solid rgb(25, 96, 230);
+    font-size: 40px;
 }
