@@ -1,0 +1,213 @@
+body{
+    font-size: 30px;
+}
+.landing {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+#back1{
+    max-width: 100%;
+    height: auto;
+    margin-left: -7px;
+    margin-top: -7px;
+  }
+  
+
+  #landing h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    font-size: 200px;
+  }
+
+  #landing h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+  }
+
+  #landing p {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+  }
+
+#about{
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-10%, -50%);
+}
+
+#about{
+    position: absolute;
+    top: 80;
+    transform: translate(-50%, -90%);
+    
+}
+#aboutus{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.containerIcons{
+    display: flex;
+}
+
+#back2{
+    background-position: center;
+    max-height: 476px;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+.section2{
+    position: absolute;
+    top: 175%;
+    left: 45.5%;
+    transform: translate(-10%, 0%);
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+#serviceslay{
+    text-align: center;
+    margin-top: -200px;
+    color: rgb(255, 255, 255);
+    transform: translate(-3%, -60%);
+}
+
+.landing #back1 {
+    background-position: center;
+    max-height: 597px;
+    margin-top: -5px;
+    margin-left: -5px;
+  }
+
+.img .row #portfolio{
+    display: flex;
+    max-block-size: 200px;
+    display: inline-block;
+}
+.icons{
+    display: inline-block;
+}
+
+#set1{
+    display: flex;
+}
+
+#set2{
+    display: flex;
+    margin-top: 1%;
+    /* padding-bottom: 7%; */
+}
+
+#work1, 
+#work2,
+#work3,
+#work4,
+#work5,
+#work6,
+#work7,
+#work8 {
+    margin: 2%; 
+}
+
+.heading{
+    text-align: center;
+}
+
+#design-text{
+    display: none;
+}
+
+#product-text{
+    display: none;
+}
+
+#development-text{
+    display: none;
+}
+#back3{
+    max-width: 100%;
+    height: auto;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+
+#form {
+    margin-left: 300px;
+    font-size: 20%;
+} 
+
+.heading {
+    text-align: center;
+    margin-top: -100px;
+}
+
+.portfolio1 {
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.icons {
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 650px;
+}
+.col {
+    margin-top: -400px;
+      
+}
+#closing {
+    margin-top: 30px;
+}
+#name {
+    padding: 1%;
+    margin-bottom: 1%;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+}
+#email {
+    padding: 1%;
+    margin-bottom: 1%;
+    background-color: transparent;
+    border: 1px solid rgb(249, 249, 250);
+}
+#message{
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+}
+#btn {
+    border: 5px solid rgb(238, 238, 238);
+    font-size: 40px;
+    background-color:grey;
+}
+::placeholder { 
+    color: rgb(255, 255, 255);
+    opacity: 1; 
+  }
+  input, select, textarea{
+    color: rgb(245, 245, 245);
+}
+#contact {
+    margin-top: -20px;
+}
