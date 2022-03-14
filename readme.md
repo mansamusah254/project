@@ -27,11 +27,18 @@ This project is a web application for Delani studio that shows details about the
 * [CSS](https://github.com/topics/css3)
 * [Bootstrap](https://github.com/topics/bootstrap)
 * [jQuery](https://github.com/topics/javascript)
-* markdown
 
 
 ## BDD
+1. The web has three sections
+* First being the landing page 
+* Second has the information about the Delani Studio.
+* Third has the input fields for communication.
 
+> INPUT"the name"
+> INPUT"email"
+> INPUT"message(optional)
+> OUTPUT"thankyou we`ll get back to you shortly"
 
 ## Contact Information 
 
