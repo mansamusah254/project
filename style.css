@@ -1,31 +1,50 @@
+body{
+    font-size: 30px;
+}
 .landing {
     position: relative;
     text-align: center;
     color: rgb(255, 255, 255);
   }
+#back1{
+    max-width: 100%;
+    height: auto;
+    margin-left: -5px;
+    margin-top: -5px;
+  }
+  
 
-  .landing h1 {
+  #landing h1 {
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 80px;
+    color: white;
+    text-align: center;
+    font-size: 200px;
   }
 
-  .landing h2 {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 35px;
-  }
-
-  .landing p {
+  #landing h2 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+  }
+
+  #landing p {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif=;
+    color: white;
+    text-align: center;
+    font-size: 30px;
 
   }
 
@@ -38,21 +57,39 @@
 
 #about{
     position: absolute;
-    top: 120;
-    transform: translate(-50%, -10%);
+    top: 80;
+    transform: translate(-50%, -90%);
+    
+}
+#aboutus{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.containerIcons{
+    display: flex;
 }
 
 #back2{
     background-position: center;
-    max-height: 271px;
+    max-height: 476px;
     margin-top: -5px;
     margin-left: -5px;
 }
 .section2{
     position: absolute;
-    top: 200%;
+    top: 175%;
     left: 45.5%;
-    transform: translate(-10%, -50%);
+    transform: translate(-10%, 0%);
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+#serviceslay{
+    text-align: center;
+    margin-top: -200px;
+    color: rgb(255, 255, 255);
+    transform: translate(-3%, -60%);
 }
 
 .landing #back1 {
@@ -69,4 +106,14 @@
 }
 .icons{
     display: inline-block;
+}
+
+.portfolio1{
+    display: flex;
+}
+.heading{
+    text-align: center;
+}
+.col-md-4{
+    /* display: none; */
 }
