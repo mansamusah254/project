@@ -132,3 +132,21 @@ body{
 .heading{
     text-align: center;
 }
+
+#design-text{
+    display: none;
+}
+
+#product-text{
+    display: none;
+}
+
+#development-text{
+    display: none;
+}
+#back3{
+    background-position: center;
+    max-height: 666px;
+    margin-top: -5px;
+    margin-left: -5px;
+}
