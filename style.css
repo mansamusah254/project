@@ -108,12 +108,27 @@ body{
     display: inline-block;
 }
 
-.portfolio1{
+#set1{
     display: flex;
 }
+
+#set2{
+    display: flex;
+    margin-top: 1%;
+    /* padding-bottom: 7%; */
+}
+
+#work1, 
+#work2,
+#work3,
+#work4,
+#work5,
+#work6,
+#work7,
+#work8 {
+    margin: 2%; 
+}
+
 .heading{
     text-align: center;
-}
-.col-md-4{
-    /* display: none; */
 }
