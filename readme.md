@@ -29,13 +29,18 @@ This project is a web application for Delani studio that shows details about the
 * [jQuery](https://github.com/topics/javascript)
 * markdown
 
-
 ## BDD
+1. The web has three sections
+* First being the landing page 
+* Second has the information about the Delani Studio.
+* Third has the input fields for communication.
 
+> INPUT"the name"
+> INPUT"email"
+> INPUT"message(optional)
+> OUTPUT"thankyou we`ll get back to you shortly"
 
-## Contact Information 
-
-If you have any question or contributions, please email me at [mikeycharlesm7@gmail.com]
+2. If input is incorrect or none, a message is displayed prompting the user to input correct details.
 
 ## License
 
