@@ -145,9 +145,19 @@ body{
     display: none;
 }
 #back3{
-    background-position: center;
-    max-height: 666px;
-    margin-top: -5px;
+    max-width: 100%;
+    height: auto;
     margin-left: -5px;
+    margin-top: -5px;
 }
 
+#form {
+    margin-left: 300px;
+    font-size: 20%;
+} 
+.footer2 {
+    margin-left: 800px;
+}
+.footer3 {
+    margin-left: 880px;
+}

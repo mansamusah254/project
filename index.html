@@ -126,16 +126,14 @@
 
   <div class="footer">
     <h2>CONTACT US</h2>
-    <form id="form">
-      <div class="form-group">
-        <input type="text" class="form-control" placeholder = "Name...." name="MERGE1" id="MERGE1" size="25" value="">
-        <input type="email" class="form-control"  placeholder = "Email...." autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+    <form class="text-white" id="form1">
+      <div class="form-group form-inline">
+        <input type="text" class="form-control input" id="name" size="50" placeholder="Name..." required>
+        <input type="email" class="form-control input" id="email" size="50" placeholder="name@email.com" required>
       </div>
-      <div class="form-group">
-        <textarea class="field" rows="8" placeholder = "Your message here...."></textarea>
-      </div>
+      <textarea name="name" rows="8" cols="100" id="message" placeholder="Your message here..."></textarea>
+      <input type="submit" value="submit" class="text-white">
     </form>
-    <button type="submit" class="btn1">Submit</button>
   </div>
   <img src="/assets/backgrounds/c_image.jpg" id="back3">
   <footer class="icons">
@@ -149,8 +147,8 @@
     <img src="/assets/social_icons/stumble_upon.png" alt="stumble">
     <img src="/assets/social_icons/twitter.png" alt="twitter">
     <img src="/assets/social_icons/you_tube.png" alt="youtube">
-    <p>DELANI STUDIO</p>
-    <p>2022</p>
+    <p class="footer2">DELANI STUDIO</p>
+    <p class="footer3">2022</p>
   </footer>
   
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
