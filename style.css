@@ -22,7 +22,7 @@ body{
     font-size: 80px;
     color: white;
     text-align: center;
-    font-size: 150px;
+    font-size: 100px;
   }
 
   #landing h2 {
@@ -33,7 +33,7 @@ body{
     font-size: 35px;
     color: white;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
   }
 
   #landing p {
@@ -110,12 +110,12 @@ body{
 
 #set1{
     display: flex;
+    margin-top: 1%;
 }
 
 #set2{
     display: flex;
     margin-top: 1%;
-    /* padding-bottom: 7%; */
 }
 
 #work1, 
@@ -126,7 +126,7 @@ body{
 #work6,
 #work7,
 #work8 {
-    margin: 2%; 
+    margin: 1%; 
 }
 
 .heading{
@@ -163,6 +163,7 @@ body{
 
 .portfolio1 {
     text-align: center;
+    
 }
 .footer {
     text-align: center;
@@ -175,6 +176,13 @@ body{
 .col {
     margin-top: -400px;
       
+}
+.col-md-4 {
+    font-size: 20px;
+}
+.col-md-3 {
+    max-inline-size: 200px;
+    padding: 1px;
 }
 #closing {
     margin-top: 30px;
